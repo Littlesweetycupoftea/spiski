@@ -72,7 +72,7 @@ int main(void)
      После 3-х извлечений должно быть 2 3 4 5 6 7 8 9
      */
     print_list(plist);
-    copy_list(3 /*строки*/);
+    copy_list(1);
     // Удаляем список
     free_list(plist);
     return 0;
